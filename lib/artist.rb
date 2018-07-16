@@ -16,7 +16,7 @@ class Artist
   end
   
   def songs
-    
+    @@songs.select()
   end
   
   def genres
