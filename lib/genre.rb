@@ -22,6 +22,8 @@ class Genre
   end
   
   def artists
-    
+    self.songs.each |song|
+      song.artist
+    end
   end
 end
