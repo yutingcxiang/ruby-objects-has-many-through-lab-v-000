@@ -22,7 +22,7 @@ class Artist
   end
   
   def genres
-    self.each do |song|
+    self.all.each do |song|
       
   end
 end
